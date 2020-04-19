@@ -1,0 +1,12 @@
+env: prod
+
+database:
+  mysql:
+    user: docker
+    host: localhost
+    port: 3306
+    database: test_database
+    password: docker
+
+app:
+  page_size: 10
